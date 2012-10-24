@@ -5,11 +5,14 @@ class WebSurveyController < ApplicationController
     client.authenticate(:username => "aiwaya@gmail.com", :password => "abcd1234")
 
     @objs = client.list_sobjects
-=begin
-    client = Databasedotcom::Client.new :client_id => "3MVG98XJQQAccJQd99vjXysbDsJLHGJdGvSwasAUAvNOnGsAKs0qymACgYSwvC9_9szDukaHitpZR3J4sjOIe", :client_secret => "1503327172143669282"
+
+
+    id = '3MVG98XJQQAccJQd99vjXysbDsJLHGJdGvSwasAUAvNOnGsAKs0qymACgYSwvC9_9szDukaHitpZR3J4sjOIe'
+    secret = '1503327172143669282'
+    client = Databasedotcom::Client.new :client_id => id, :client_secret => secret
     client.authenticate(:username => "websurvey@1.com", :password => "abcd1234")
 
-=end
+
 #client.create('websurvey__c', 'q1__c' => 'sdsd')
 
   end
