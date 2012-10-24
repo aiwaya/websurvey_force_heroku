@@ -1,5 +1,5 @@
 Websurvey::Application.routes.draw do
-  match 'index' => "web_survey/index"
+  root :to => 'web_survey#index'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
