@@ -34,7 +34,7 @@
       <file leaf-file-name="web_survey_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/web_survey_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="182" selection-start="246" selection-end="246" vertical-scroll-proportion="0.14563107">
+            <state line="6" column="4" selection-start="328" selection-end="328" vertical-scroll-proportion="0.2184466">
               <folding />
             </state>
           </provider>
@@ -558,7 +558,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/web_survey_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="182" selection-start="246" selection-end="246" vertical-scroll-proportion="0.14563107">
+        <state line="6" column="4" selection-start="328" selection-end="328" vertical-scroll-proportion="0.2184466">
           <folding />
         </state>
       </provider>
