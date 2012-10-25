@@ -1,0 +1,23 @@
+<h1>Listing surveys</h1>
+
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Body</th>
+    <th></th>
+  </tr>
+
+<% @rows.each do |survey| %>
+  <tr>
+    <td><%= survey['id'] %></td>
+    <td><%= survey['name'] %></td>
+    <td><%= survey['body'] %></td>
+    <td><%=  link_to 'poll', {:action=>'new', :id => survey['id']} %> </td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+

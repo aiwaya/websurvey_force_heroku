@@ -1,5 +1,9 @@
 Websurvey::Application.routes.draw do
+  resources :surveys
+
   match 'survey/:id' => 'web_survey#index'
+
+  resources :surveys
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
