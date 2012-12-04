@@ -43,12 +43,12 @@ class Salesforcedatabase
   private
 
   def login
-    client_id = '3MVG98XJQQAccJQd99vjXysbDsJLHGJdGvSwasAUAvNOnGsAKs0qymACgYSwvC9_9szDukaHitpZR3J4sjOIe'
-    client_secret = '1503327172143669282'
-    host = 'na11.salesforce.com'
-    password = 'abcd1234'
-    username = 'websurvey@1.com'
-    api_version = 'v23.0'
+    client_id = ENV['sfdc_client_id']
+    client_secret = ENV['sfdc_client_secret']
+    host = ENV['sfdc_host']
+    password = ENV['sfdc_password']
+    username = ENV['sfdc_user']
+    api_version = ENV['sfdc_api_version']
 
     auth_login = "https://#{host}/services/oauth2/token"
     headers = { 'Content-Type' => 'application/x-www-form-urlencoded' }
