@@ -1,6 +1,5 @@
 Websurvey::Application.routes.draw do
 
-  root :to => 'surverys#index'
   resources :surveys
 
   match 'survey/:id' => 'web_survey#index'
