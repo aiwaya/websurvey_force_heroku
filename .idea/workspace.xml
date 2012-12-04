@@ -27,19 +27,28 @@
     <splitter split-orientation="vertical" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="environment.rb" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="environment.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/config/environment.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="12" column="18" selection-start="523" selection-end="523" vertical-scroll-proportion="0.45112783">
+                <state line="18" column="13" selection-start="580" selection-end="580" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="routes.rb" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/config/routes.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="5" column="20" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
+                <state line="2" column="23" selection-start="62" selection-end="62" vertical-scroll-proportion="0.075187966">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="surveys_controller.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/controllers/surveys_controller.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="17" column="0" selection-start="401" selection-end="401" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -49,7 +58,7 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="salesforcedatabase.rb" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="salesforcedatabase.rb" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/controllers/salesforcedatabase.rb">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="51" column="30" selection-start="953" selection-end="953" vertical-scroll-proportion="0.4375">
@@ -78,13 +87,13 @@
         <option value="$PROJECT_DIR$/app/controllers/databasedotcom.rb" />
         <option value="$PROJECT_DIR$/app/controllers/web_survey_controller.rb" />
         <option value="$PROJECT_DIR$/lib/salesforce_blog.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/surveys/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/surveys/new.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/surveys_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/surveys/create.html.erb" />
         <option value="$PROJECT_DIR$/config/environment.rb" />
         <option value="$PROJECT_DIR$/app/controllers/salesforcedatabase.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
       </list>
     </option>
   </component>
@@ -683,13 +692,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/surveys_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="401" selection-end="401" vertical-scroll-proportion="0.512987">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/salesforce_blog.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="35" selection-start="78" selection-end="78" vertical-scroll-proportion="0.08658009">
@@ -773,23 +775,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/salesforcedatabase.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="20" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
+        <state line="51" column="30" selection-start="953" selection-end="953" vertical-scroll-proportion="0.4375">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environment.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="18" selection-start="523" selection-end="523" vertical-scroll-proportion="0.45112783">
+        <state line="18" column="13" selection-start="580" selection-end="580" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/salesforcedatabase.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/surveys_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="30" selection-start="953" selection-end="953" vertical-scroll-proportion="0.4375">
+        <state line="17" column="0" selection-start="401" selection-end="401" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="23" selection-start="62" selection-end="62" vertical-scroll-proportion="0.075187966">
           <folding />
         </state>
       </provider>
