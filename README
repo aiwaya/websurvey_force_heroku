@@ -2,6 +2,9 @@ Demo account
 userid :websurvey@1.com
 pass : abcdXXXX
 
+Heroku app
+http://myquestionaryapp.herokuapp.com/surveys
+
 1. Force.com Developer account
 http://developer.force.com/
 
@@ -33,5 +36,5 @@ Heroku deploy
 3. git commit -m init
 4. heroku create 
 5. git push heroku master
-6. 
+6. http://<your application>.herokuapp.com/surveys
 
