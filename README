@@ -4,8 +4,34 @@ pass : abcdXXXX
 
 1. Force.com Developer account
 http://developer.force.com/
+
 2. Heroku account
 http://www.heroku.com/
+
 3.Download this rails application
+press ZIP download button 
+
 4.Install force.com package
 https://login.salesforce.com/packaging/installPackage.apexp?p0=04tG00000007GTB
+
+Config
+1. 接続済みアプリケーションの作成
+作成->アプリケーション->接続済みアプリケーション新規ボタン
+アプリケーション名
+取引先責任者メール
+コールバックURL (https://localhost:3000)
+選択したOAuth範囲　データへのアクセス
+で保存
+
+2. 保存するとAPI接続用のコンシューマ鍵、コンシューマの秘密が作成されるのでメモ
+
+3. Rails appのconfig/environment.rbに上記コンシューマ鍵、コンシューマの秘密、接続ユーザ、パスワードを記入
+
+Heroku deploy
+1. git init
+2. git add .
+3. git commit -m init
+4. heroku create 
+5. git push heroku master
+6. 
+
